@@ -9,3 +9,13 @@ This cli tool will handle
 - linting
 - test config
 - compiling
+
+** TODO: ** evveeryyythingg!
+
+## Usage
+
+_optional `-d` flag_
+
+```bash
+node cli <string> -d
+```
