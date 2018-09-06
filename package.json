@@ -1,0 +1,23 @@
+{
+  "name": "td-build",
+  "version": "0.0.0",
+  "description": "front-end cli tooling utility",
+  "bin": {
+    "td-build": "./cli"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomdaniels/td-build.git"
+  },
+  "author": "Tom Daniels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomdaniels/td-build/issues"
+  },
+  "homepage": "https://github.com/tomdaniels/td-build#readme",
+  "dependencies": {}
+}
