@@ -4,13 +4,13 @@ const meow = require('meow');
 
 const cli = meow(`
 	Usage
-	  $ foo <input>
+	  $ td-build <input>
 
 	Options
 	  --flag, -f  description
 
 	Examples
-	  $ foo unicorns --flag
+	  $ td-build dummy --flag
 	  with
 `, {
 	flags: {
@@ -22,16 +22,16 @@ const cli = meow(`
 });
 /*
 {
-	input: ['unicorns'],
-	flags: {rainbow: true},
+	input: ['dummy'],
+	flags: {flag: true},
 	...
 }
 */
 
 const foo = (input, flags) => {
-	if (flags && flags.d) {
+	if (flags && flags.f) {
 		console.log('with flag');
-	} else if (flags && !flags.d) {
+	} else if (flags && !flags.f) {
 		console.log(cli.help);
 	} else {
 		console.log('without');
